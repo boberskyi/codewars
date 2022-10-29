@@ -1,0 +1,1 @@
+const solution = (str, ending) => ending == str.substr(-ending.length);
