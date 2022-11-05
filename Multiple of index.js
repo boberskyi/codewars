@@ -1,0 +1,1 @@
+const multipleOfIndex = array => array.filter((el, i) => array[i] % i == 0);
