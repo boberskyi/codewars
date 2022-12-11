@@ -1,0 +1,1 @@
+const countSmileys = arr => arr.filter(itm => /^[:;][-~]{0,1}[)D]$/.test(itm)).length;
