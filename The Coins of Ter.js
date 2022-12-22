@@ -1,0 +1,1 @@
+const adjust = (coin, price) => Math.ceil(price / coin) * coin;
