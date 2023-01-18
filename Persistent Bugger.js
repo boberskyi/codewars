@@ -1,18 +1,12 @@
 const persistence = num => {
-  let counter = 0;
+  var times = 0;
 
-  let digits = num.toString().split('');
+  num = num.toString();
 
-  while (digits.length > 1) {
-    let results = 1;
-
-    for (let i = 0; i < digits.length; i++) {
-      results = results * digits[i];
-    }
-
-    digits = results.toString().split('');
-    counter += 1;
+  while (num.length > 1) {
+    times++;
+    num = num.split('').map(Number).reduce((a, b) => a * b).toString();
   }
 
-  return counter;
+  return times;
 }
