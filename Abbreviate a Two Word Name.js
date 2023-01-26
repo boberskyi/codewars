@@ -1,0 +1,1 @@
+const abbrevName = name => name.split(' ').map(i => i[0].toUpperCase()).join('.');
