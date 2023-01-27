@@ -1,0 +1,1 @@
+const arrayDiff = (arr, rem) => arr.filter(el => !rem.includes(el));
