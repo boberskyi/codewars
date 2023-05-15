@@ -1,0 +1,1 @@
+const isIsogram = str => new Set(str.toUpperCase()).size == str.length;
