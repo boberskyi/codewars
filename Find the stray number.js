@@ -1,0 +1,1 @@
+const stray = numbers => numbers.reduce((acc, cur) => acc ^ cur);
