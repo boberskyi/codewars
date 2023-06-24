@@ -1,1 +1,1 @@
-str.split("").map(c => c + c).join("");
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
