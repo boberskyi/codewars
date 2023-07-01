@@ -1,11 +1,1 @@
-const factorial = n => {
-
-  let result = 1;
-
-  while (n > 0) {
-    result *= n;
-    n--;
-  }
-
-  return result;
-}
+const factorial = n => n ? factorial(n - 1) * n : 1;
