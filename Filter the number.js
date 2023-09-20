@@ -1,0 +1,1 @@
+const FilterString = value => +value.replace(/\D/g, '');
