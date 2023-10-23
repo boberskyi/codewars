@@ -1,0 +1,1 @@
+const stairsIn20 = s => [].concat(...s).reduce((a, c) => a + c) * 20;
