@@ -1,3 +1,4 @@
 
 index.html
 test.js
+export const well = (words: string\[\]): s
