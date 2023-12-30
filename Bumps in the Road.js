@@ -1,4 +1,1 @@
-const bump = x => {
-  let bumpsCount = (x.match(/n/g) || []).length;
-  return bumpsCount <= 15 ? "Woohoo!" : "Car Dead";
-}
+const bump = x => x.split('n').length > 16 ? "Car Dead" : "Woohoo!";
