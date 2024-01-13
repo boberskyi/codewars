@@ -1,0 +1,1 @@
+const wordsToMarks = string => [...string].reduce((summ, char) => summ += char.charCodeAt() - 96, 0);
